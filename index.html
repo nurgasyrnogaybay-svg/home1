@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 0.6875rem;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-blue-950 flex justify-center items-center min-h-screen">
+    <div
+      style="width: 400px; height: 600px"
+      class="cont bg-blue-800 p-5 rounded-lg flex flex-col gap-5"
+    >
+      <img
+        style="height: 50%; width: 100%"
+        class="rounded-sm"
+        src="images/image-equilibrium.jpg"
+        alt=""
+      />
+      <div style="height: 50%; width: 100%" class="bottom flex flex-col gap-5">
+        <div class="ttext flex flex-col gap-3">
+          <p class="text-2xl font-bold text-white">Equilibrium #3429</p>
+          <p class="text-gray-300">
+            Our Equilibrium collection promotes <br />
+            balance and calm.
+          </p>
+        </div>
+        <div class="roww flex flex-row gap-45">
+          <div class="fp flex flex-row">
+            <img src="images/icon-ethereum.svg" alt="" />
+            <p class="text-cyan-400">0.041ETH</p>
+          </div>
+          <div class="sp flex flex-row">
+            <img src="images/icon-clock.svg" alt="" />
+            <p class="text-slate-200">3 days left</p>
+          </div>
+        </div>
+        <div style="width: 390; height: 1px" class="line bg-slate-200"></div>
+        <div class="imrow flex gap-2 items-center">
+          <img
+            style="width: 30px; height: 30px"
+            src="images/image-avatar.png"
+            alt=""
+          />
+          <div class="text flex gap-1">
+            <p class="text-slate-300">Creation of</p>
+            <p class="text-white">Jules Wyvern</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Equilibrium #3429 Our Equilibrium collection promotes balance and calm. 0.041
+ETH 3 days left Creation of Jules Wyvern -->
